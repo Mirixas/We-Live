@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <br>
+        <h2 style="text-align:center; color:white"  >Sveiki Visi</h2>
+    </head>
+    <body style = "background-color: rgb(0,0,0);"></body>
+    <body>
+        <br></br>
+    <img id="myImage" src='SmurfCat.jpg' width="1920" height="1080"></img>
+
+        <button type="button" onclick="ChangeClick()">Spausk ciaa</button>
+    </body>
+
+    <script>
+        function ChangeClick() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("SmurfCat")) {
+                image.src = 'GigaChad.png';
+            } else {
+                image.src = 'SmurfCat.jpg';
+            }
+        }
+    </script>
+</html>

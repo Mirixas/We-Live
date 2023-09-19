@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <h2 style="text-align:center;">Sveiki Visii</h2>
+    </head>
+
+    <body>
+        <br></br>
+    <img id="myImage" scr="SmurfCat.jpg" width="1920" height="1080"></img>
+
+        <button type="button" onclick="document.getElementById('myImage').src = 'GigaChad.png'">Spausk cia</button>
+    </body>
+</html>
